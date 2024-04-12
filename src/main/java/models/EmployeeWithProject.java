@@ -1,14 +1,8 @@
 package models;
 
-import java.time.LocalDate;
-
 import lombok.Data;
 
 @Data
-public class Solution {
-  private Long employeeId;
+public class EmployeeWithProject extends Employee {
   private Long projectId;
-  private LocalDate dateFrom;
-  private LocalDate dateTo;
-
 }

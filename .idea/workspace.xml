@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f16b8435-9637-456f-bcbf-e735ddfb812b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/EmployeeWithProject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/EmployeeWithProject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/LongestPair.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/LongestPair.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/SolutionResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/SolutionResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/MainGui.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/MainGui.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/services/CalculatorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/services/CalculatorService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/services/CsvReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/services/CsvReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/services/SolutionsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/services/SolutionsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SolutionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SolutionTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="TaskManager">
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
