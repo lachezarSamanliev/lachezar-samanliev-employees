@@ -20,42 +20,37 @@ import services.SolutionsService;
 public class Main {
 
   public static void main(String[] args) throws IOException {
+
+    // init command line options
     Options options = new Options();
     options.addOption("f", "file", true, "path and csv file");
+
+    // init comman line parser
     CommandLineParser parser = new DefaultParser();
     try {
+      // parse command line arguments
       CommandLine line = parser.parse(options, args);
       String pathAndFile = line.getOptionValue("f", "C:\\");
+
+      // init csvReader and services
       CsvReader csvReader = new CsvReader();
       SolutionsService solutionsService = new SolutionsService();
 
-      // read csv
-      // catch duplicates
-      // catch not existing places except lastDate
-      //catch not Long for id
-      // ignore and log maybe?
+      // read csv data
       List<EmployeeWithProject> employeeWithProjectList = csvReader.readCsv(pathAndFile);
 
-      // pair of employees who have worked
-      //together on common projects for the longest period of time.
-      ///////
-      // get the final list
-      // for loop that fucker
-      // create list of UserProjectTimeLine
-
-
-      // create List of Unique projectIds
+      // create List of unique projectIds
       Set<Long> projectIds = solutionsService.getUniqueProjectIds(employeeWithProjectList);
 
-      // create HashMap
-      // we will have to use Solution instead of UserProject.....
+      // create HashMap of each project with a list of employees who worked on that project
 
       HashMap<Long, List<Employee>> projectsAndUsersMap = solutionsService.filterUsersInProject(
           employeeWithProjectList, projectIds);
 
-      // create Result List
+      // create SolutionResult List of each project and the pair of employees with longest overlap
       List<SolutionResult> solutionResultList = solutionsService.getSolutionResultsBasedOnProjects(
           projectsAndUsersMap);
+      // print solution for each project
       for(SolutionResult result: solutionResultList){
         System.out.printf("Project ID: %s, Total Days: %s, Emp1: %s, Emp2: %s%n", result.getProjectId(), result.getDaysWorkedTogether(), result.getEmployeeOneId(), result.getEmployeeTwoId());
       }
